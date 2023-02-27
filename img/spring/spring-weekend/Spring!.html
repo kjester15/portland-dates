@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/portland-dates/spring.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Spring!_files/style.css">
+    <title>Spring!</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-text">Your Guide To Portland Dates :)</div>
+        <div class="menu-bar">
+            <a href="http://127.0.0.1:5500/portland-dates/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/portland-dates/spring.html">Spring</a>
+            <a href="http://127.0.0.1:5500/portland-dates/summer.html">Summer</a>
+            <a href="http://127.0.0.1:5500/portland-dates/fall.html">Fall</a>
+            <a href="http://127.0.0.1:5500/portland-dates/winter.html">Winter</a>
+        </div>
+    </div>
+    <div class="summary">
+        <div class="season-header">Spring</div>
+        <p class="season-text">
+            Spring is a beautiful time in the PNW but it can also feel like it’s dragging. The nice days are really nice, but when it rains, it pours. Spend clear days frolicking in fields of wildflowers and force yourself outside on crummy ones by hiking to waterfalls when their flow is highest – I promise it’ll be worth it! Do more indoor winter activities on weeks that have no sun in sight, and when the good weather actually lasts, take a weekend trip to help you feel sane, and mentally prepare yourself for the business that is summer.
+        </p>
+    </div>
+    <div class="season-links">
+        <div class="price-image">Free
+            <a href="http://127.0.0.1:5500/portland-dates/spring-free.html">
+                <img class="landing-image" src="./Spring!_files/cherry_blossoms.jpeg">
+            </a>
+        </div>
+        <div class="price-image">Affordable
+            <a href="http://127.0.0.1:5500/portland-dates/spring-affordable.html">
+                <img class="landing-image" src="./Spring!_files/tuplip_field.jpeg">
+            </a>
+        </div>
+        <div class="price-image">Pricey 
+            <a href="http://127.0.0.1:5500/portland-dates/spring-pricey.html">
+                <img class="landing-image" src="./Spring!_files/envi_adventure.png">
+            </a>
+        </div>
+        <div class="price-image">Weekend
+            <a href="http://127.0.0.1:5500/portland-dates/spring-weekend.html">
+                <img class="landing-image" src="./Spring!_files/jroos-sahalie-falls.jpeg">
+            </a>
+        </div>
+    </div>
+    <script src="./Spring!_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
