@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: rgb(241, 249, 234);
 }
 
 .header {
@@ -21,4 +22,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.season-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-image {
+    width: auto;
+    max-height: 300px;
+    border-radius: 200px;
+    flex: 1;
 }
