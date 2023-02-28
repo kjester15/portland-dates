@@ -12,6 +12,8 @@ body {
     padding: 12px;
     border-radius: 8px;
     transition: 0.3s;
+    text-decoration: none;
+    color: black;
 }
 
 .header-link:hover {
@@ -72,11 +74,6 @@ body {
 .season-header {
     font-size: 25px;
     align-self: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 .inline-link {
