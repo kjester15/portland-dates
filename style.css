@@ -8,6 +8,10 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.header-link {
+    padding: 15px;
+}
+
 .header {
     display: flex;
     flex: 1;
@@ -36,22 +40,32 @@ body {
 }
 
 a {
-    padding: 15px;
     text-decoration: none;
     color: black;
+}
+
+.inline-link {
+    color: blue;
+    text-decoration: underline;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.season-links {
+.season-links, .season-activity-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.price-image {
+.season-activity-container {
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.price-image, .activity-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +74,12 @@ a:hover {
 
 .landing-image {
     height: auto;
+    max-height: 400px;
     max-width: 400px;
     border-radius: 200px;
     flex: 1;
+}
+
+.activity-name, .season-ul {
+    margin: 20px;
 }
