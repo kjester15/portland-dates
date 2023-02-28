@@ -74,8 +74,8 @@ a {
 
 .landing-image {
     height: auto;
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 500px;
+    max-width: 500px;
     border-radius: 200px;
     flex: 1;
 }
