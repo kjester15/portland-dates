@@ -29,6 +29,19 @@ body {
     box-sizing: border-box;
 }
 
+.home-images {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.home-image {
+    width: 1000px;
+    align-self: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 .summary {
     margin-left: 100px;
     margin-right: 100px;
