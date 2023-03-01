@@ -51,13 +51,15 @@ body {
 .home-images {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    max-width: 80%;
+    padding-top: 70px;
+    width: 100%;
+    align-items: center;
 }
 
 .home-image {
+    display: flex;
+    max-width: 60%;
     width: 1000px;
-    align-self: center;
     border-radius: 10px;
     margin: 10px;
 }
