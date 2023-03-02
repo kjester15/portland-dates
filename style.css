@@ -56,10 +56,44 @@ body {
     align-items: center;
 }
 
+.image-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: end; */
+    width: 100%;
+}
+
+.image-container.top {
+    justify-content: center;
+    align-items: end;
+    margin-left: 100px;
+}
+
+.image-container.middle {
+    justify-content: left;
+    align-items: end;
+    margin-left: 200px;
+}
+
+.image-container.bottom {
+    justify-content: end;
+    align-items: end;
+    margin-right: 150px;
+}
+
+.overlay-home {
+    position: absolute;
+    color: white;
+    font-size: 110px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .home-image {
     display: flex;
     max-width: 60%;
-    width: 1000px;
+    width: 1200px;
     border-radius: 10px;
     margin: 10px;
 }
