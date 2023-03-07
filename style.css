@@ -155,3 +155,12 @@ body {
 .activity-name, .season-ul {
     margin: 20px;
 }
+
+.activity-header {
+    padding-top: 70px;
+}
+
+h4 {
+    padding-top: 30px;
+}
+
