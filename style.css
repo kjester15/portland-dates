@@ -123,6 +123,25 @@ body {
     align-items: center;
 }
 
+.nav-link-container {
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
 .season-activity-container {
     margin-right: 300px;
     margin-left: 300px;
