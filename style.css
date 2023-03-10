@@ -126,6 +126,9 @@ body {
 .nav-link-container {
     display: flex;
     /* background-color: aqua; */
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-link {
@@ -135,6 +138,10 @@ body {
     margin-top: 15px;
     text-decoration: none;
     transition: 0.3s;
+    background-color: rgb(255, 192, 109);
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 .nav-link:hover {
