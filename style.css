@@ -133,11 +133,6 @@ body {
     align-items: center;
 }
 
-.season-activity-container {
-    position: relative;
-    min-height: 100vh;
-}
-
 .nav-link-container {
     display: flex;
     width: 100vw;
@@ -164,9 +159,14 @@ body {
 }
 
 .season-activity-container {
-    margin-right: 300px;
-    margin-left: 300px;
     margin-top: 80px;
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.season-ul {
+    max-width: 60vw;
 }
 
 .price-image, .activity-container {
@@ -181,12 +181,10 @@ body {
     position: absolute;
     color: white;
     font-size: 5vw;
-    /* text-shadow: 0 0 4px black; */
 }
 
 .landing-image {
     height: auto;
-    /* max-width: 500px; */
     width: 37vw;
     border-radius: 100px;
     flex: 1;
