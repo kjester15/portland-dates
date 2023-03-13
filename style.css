@@ -36,6 +36,15 @@ body {
     /* flex-wrap: wrap; */
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 239, 222);
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+}
+
 .menu-bar {
     display: flex;
     flex-wrap: wrap;
@@ -123,6 +132,11 @@ body {
     align-items: center;
 }
 
+.season-activity-container {
+    position: relative;
+    min-height: 100vh;
+}
+
 .nav-link-container {
     display: flex;
     width: 100vw;
@@ -133,7 +147,7 @@ body {
 .nav-link {
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 15px;
     text-decoration: none;
     transition: 0.3s;
