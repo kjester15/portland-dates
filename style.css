@@ -180,14 +180,14 @@ body {
 .overlay {
     position: absolute;
     color: white;
-    font-size: 60px;
+    font-size: 5vw;
     /* text-shadow: 0 0 4px black; */
 }
 
 .landing-image {
     height: auto;
-    max-height: 500px;
-    max-width: 500px;
+    /* max-width: 500px; */
+    width: 37vw;
     border-radius: 100px;
     flex: 1;
 }
